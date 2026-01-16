@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VlimGaming - Developer, Minecraft Server Architect, and Content Creator. Exploring the intersection of networking and gaming.">
+    <title>VlimGaming | Developer & Creator</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-red">
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="nav-logo">VLIMGAMING</a>
+            <div class="nav-links">
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-circle-half-stroke"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <p class="hero-pretitle">Full-Stack Developer & Systems Architect</p>
+            <h1 class="hero-title">Engineering immersive digital environments.</h1>
+            <p class="hero-description">
+                Experienced in building scalable Minecraft infrastructure and high-performance web applications. Focused on security, networking, and seamless user experiences.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Frontend</h3>
+                    <p>Building responsive, accessible interfaces using modern HTML, CSS, and optimized JavaScript systems.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Infrastructure</h3>
+                    <p>Minecraft server architecture, BungeeCord/Velocity networking, and Linux systems administration.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Backend</h3>
+                    <p>Development of secure APIs, database management, and server-side logic for high-traffic applications.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-shield-halved"></i>
+                    <h3>Security</h3>
+                    <p>Network security, DDoS mitigation strategies, and system hardening for public-facing servers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Featured Work</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-label">Flagship Project</div>
+                        <h3 class="project-name">LegacyNetwork</h3>
+                        <p class="project-desc">
+                            LegacyNetwork is a comprehensive public Minecraft server network designed for high performance and community engagement. It features multiple game modes including Survival and custom Mini-Games, running on a custom-optimized networking stack.
+                        </p>
+                        <div class="project-meta">
+                            <span class="meta-item"><i class="fas fa-link"></i> ln.vlim.in</span>
+                            <span class="meta-item"><i class="fab fa-discord"></i> discord.vlim.in</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://discord.vlim.in" target="_blank" class="project-btn">Join Community</a>
+                        </div>
+                    </div>
+                    <div class="project-visual">
+                        <div class="terminal-mockup">
+                            <div class="terminal-header">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="terminal-body">
+                                <code class="code-line">Connecting to ln.vlim.in...</code>
+                                <code class="code-line">Status: <span class="text-success">Online</span></code>
+                                <code class="code-line">Protocol: TCP/UDP 25565</code>
+                                <code class="code-line">> Fetching playercount...</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="section-title">Connect</h2>
+                    <p>Interested in collaboration or have a technical inquiry? Reach out via any of the professional channels below.</p>
+                    <div class="contact-list">
+                        <a href="mailto:manishytxd@proton.me" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>manishytxd@proton.me</span>
+                        </a>
+                        <a href="https://youtube.com/@vlimgaming04" target="_blank" class="contact-item">
+                            <i class="fab fa-youtube"></i>
+                            <span>YouTube / vlimgaming04</span>
+                        </a>
+                        <a href="#" class="contact-item">
+                            <i class="fab fa-discord"></i>
+                            <span>Discord / vlimgaming04</span>
+                        </a>
+                        <a href="https://instagram.com/vlimgaming04" target="_blank" class="contact-item">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram / vlimgaming04</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> VlimGaming. Built with precision.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+                      </html>
